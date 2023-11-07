@@ -1,6 +1,6 @@
 import 'dart:math';
 import 'dart:io';
-import 'package:cook_and_soup/binary_sort.dart';
+import 'binary_sort.dart';
 import 'cook/cook.dart';
 import 'cook/product.dart';
 import 'cook/recipe.dart';
