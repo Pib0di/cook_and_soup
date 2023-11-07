@@ -1,9 +1,10 @@
 import 'dart:math';
 import 'dart:io';
+import 'package:cook_and_soup/cook/cook.dart';
+import 'package:cook_and_soup/cook/product.dart';
+import 'package:cook_and_soup/cook/recipe.dart';
+
 import 'binary_sort.dart';
-import 'cook/cook.dart';
-import 'cook/product.dart';
-import 'cook/recipe.dart';
 
 extension BinSort<T> on List<int> {
   List<int> binarySort(){
